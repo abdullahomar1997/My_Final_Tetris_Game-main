@@ -7,7 +7,7 @@ export const Cell = ({ type,isGhost }) => {
     let color = TETROMINOES[type].color;
 
     if(isGhost === 100){
-        color = "0,44,0";
+        color = "0,67,0";
     }
 
     return (
