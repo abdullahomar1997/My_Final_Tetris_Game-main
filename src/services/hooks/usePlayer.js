@@ -21,6 +21,7 @@ export const usePlayer = () => {
         let newTetrominoPreviews = updateTetrominoPreviews(currentPlayer.tetrominoes);
 
         setPlayer(() => createPlayer(newTetrominoPreviews));
+        
     }, []);
 
     const updatePlayerPosition = ({ row, column, isCollided }) => {
